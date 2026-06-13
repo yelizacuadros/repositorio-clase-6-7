@@ -1,0 +1,100 @@
+/* Configuración General y Fondo */
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 20px; 
+    background-color: #f4f4f9; 
+    color: #333; 
+}
+
+/* Encabezado Principal */
+header { 
+    background: #35424a; 
+    color: #ffffff; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
+
+/* Barra de Navegación (GET) */
+nav { 
+    margin-bottom: 20px; 
+    padding: 15px; 
+    background: #ffffff; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+nav a { 
+    margin-right: 15px; 
+    text-decoration: none; 
+    color: #35424a; 
+    font-weight: bold; 
+}
+nav a:hover { 
+    color: #e8491d; 
+}
+
+/* Cajas Contenedoras de las Secciones */
+.container { 
+    background: #ffffff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    margin-bottom: 20px; 
+}
+
+/* Alertas y Bloques de Respuesta del Servidor */
+.alert { 
+    padding: 15px; 
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    border-left: 5px solid #35424a; 
+    background-color: #e2eafc; 
+    font-weight: bold; 
+}
+.alert-post { 
+    border-left: 5px solid #2a9d8f; 
+    background-color: #e8f5e9; 
+}
+
+/* Estilos del Formulario */
+.form-group { 
+    margin-bottom: 15px; 
+}
+label { 
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+}
+input[type="text"], input[type="email"] { 
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+/* Botones y Enlaces de Acción */
+button { 
+    background: #35424a; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+button:hover { 
+    background: #e8491d; 
+}
+.btn-regresar {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #35424a;
+    font-weight: bold;
+}
+.btn-regresar:hover {
+    color: #e8491d;
+}
